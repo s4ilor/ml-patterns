@@ -13,31 +13,36 @@ First of all, you have to install a few things (considering you haven't done thi
 
 If you're done, head to https://www.kaggle.com and create an account. You'll use it quite frequently, trust me. After that, go to: https://www.kaggle.com/<your_name>/account and download the API Token. Then open the terminal and type:
 ```
-git clone https://github.com/s4ilor/ml-patterns # Cloned repo from TFforPoets by Google. Smaller version including only the files we need.\
-mv ~/Downloads/kaggle.json ~/.kaggle # Moving the json file into kaggle directory.
+git clone https://github.com/s4ilor/ml-patterns 
+mv ~/Downloads/kaggle.json ~/.kaggle 
 chmod 600 ~/.kaggle/kaggle.json # Safety purposes.
-kaggle datasets download -d olgabelitskaya/traditional-decor-patterns # Downloading the dataset.
-mkdir ~/ml-patterns/tf_files/data ~/ml-patterns/tf_files/photos # Two directories we're going to need later.
-unzip ~/.kaggle/datasets/olgabelitskaya/traditional-decor-patterns/decor.zip -d  ~/ml-patterns/tf_files/data # Unzipping the file into "data" directory created a moment before.
-cd ~/ml-patterns/tf_files/data # Let's head there.
-ls | grep -P "\d{2}_\d{2}_1_\d{3}.png" | xargs -d"\n" rm # This command removes every file which IS NOT a product. Check it in decor.csv file. 
-#!/usr/bin/env python # Oh boy, it's getting serious here.
-chmod +x ~/ml-patterns/scripts/conv.py # x stands for executable.
-python ~/ml-patterns/scripts/conv.py # Very short script which converts every PNG file in a working directory to JPEG.
-ls | grep -P "\d{2}_\d{2}_2_\d{3}.png" | xargs -d"\n" rm # Deleting the now-useless PNG files.
-cd ~/ml-patterns/tf_files/photos # Another directory we've created. Let's organise it a bit.
-mkdir gzhel khokhoma gorodets lowickie kaszubskie iznik neglyubka # Each folder for every pattern. Again, look into decor.csv.
-cd ~/ml-patterns/tf_files/data # Going back.
+kaggle datasets download -d olgabelitskaya/traditional-decor-patterns 
+mkdir ~/ml-patterns/tf_files/data ~/ml-patterns/tf_files/photos 
+unzip ~/.kaggle/datasets/olgabelitskaya/traditional-decor-patterns/decor.zip -d  ~/ml-patterns/tf_files/data 
+cd ~/ml-patterns/tf_files/data 
+ls | grep -P "\d{2}_\d{2}_1_\d{3}.png" | xargs -d"\n" rm 
+#!/usr/bin/env python 
+chmod +x ~/ml-patterns/scripts/conv.py 
+python ~/ml-patterns/scripts/conv.py 
+ls | grep -P "\d{2}_\d{2}_2_\d{3}.png" | xargs -d"\n" rm 
+cd ~/ml-patterns/tf_files/photos 
+mkdir gzhel khokhoma gorodets lowickie kaszubskie iznik neglyubka 
+cd ~/ml-patterns/tf_files/data 
 mv 01_01*.jpg ~/ml-patterns/tf_files/photos/gzhel; 
 mv 01_02*.jpg ~/ml-patterns/tf_files/photos/khokhoma; 
 mv 01_03*.jpg ~/ml-patterns/tf_files/photos/gorodets; 
 mv 02_04*.jpg ~/ml-patterns/tf_files/photos/lowickie; 
 mv 02_07*.jpg ~/ml-patterns/tf_files/photos/kaszubskie; 
 mv 03_05*.jpg ~/ml-patterns/tf_files/photos/iznik; 
-mv 04_06*.jpg ~/ml-patterns/tf_files/photos/neglyubka; # Moving all the files into proper categories.
-rm -rf ~/ml-patterns/tf_files/data # Deleting stuff we don't need anymore.
-cd ~/ml-patterns # Head to the main directory.
+mv 04_06*.jpg ~/ml-patterns/tf_files/photos/neglyubka;
+rm -rf ~/ml-patterns/tf_files/data 
+cd ~/ml-patterns
 ```
+
+
+
+
+
 
 # Everything is prepared - now it's time for TensorFlow to do the work
  
