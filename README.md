@@ -96,7 +96,7 @@ And then run the code.
 
 # Adding more data
 
-So you never give up. That's good... I guess. Anyway, download the NEW neglyubka folder from https://drive.google.com/open?id=1A4Tj9bydeWXHa3ygC3tPTYPXs7PIIyNA. There are more files inside which I've found on the internet and resized to 150x150px.
+So you never give up. That's good... I guess. Anyway, download the NEW neglyubka folder from https://drive.google.com/open?id=1A4Tj9bydeWXHa3ygC3tPTYPXs7PIIyNA. There are more files inside which I've found on the internet and resized to 150x150px. After downloading new dataset, type into terminal:
 
 ```
 rm -rf ~/ml-patterns/tf_files/photos/neglyubka
