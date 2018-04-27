@@ -18,7 +18,7 @@ If you're done, head to https://www.kaggle.com and create an account. You'll use
 ```
 git clone https://github.com/s4ilor/ml-patterns 
 mv ~/Downloads/kaggle.json ~/.kaggle 
-chmod 600 ~/.kaggle/kaggle.json # Safety purposes.
+chmod 600 ~/.kaggle/kaggle.json
 kaggle datasets download -d olgabelitskaya/traditional-decor-patterns 
 mkdir ~/ml-patterns/tf_files/data ~/ml-patterns/tf_files/photos 
 unzip ~/.kaggle/datasets/olgabelitskaya/traditional-decor-patterns/decor.zip -d  ~/ml-patterns/tf_files/data 
