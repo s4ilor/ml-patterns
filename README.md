@@ -7,9 +7,9 @@ Everything works perfectly fine on Ubuntu 16.04.
 # Let's do it then!
 First of all, you have to install a few things (considering you haven't done this before):
 
->pip install tensorflow
->pip install opencv-python
->pip install kaggle
+>pip install tensorflow\
+>pip install opencv-python\
+>pip install kaggle\
 
 If you're done, head to https://www.kaggle.com and create an account. You'll use it quite frequently, trust me. After that, go to: https://www.kaggle.com/<your_name>/account and download the API Token. Then open the terminal and type:
 
