@@ -116,7 +116,7 @@ python -m scripts.label_image \
     --image=tf_files/photos/<name_of_the_category>/<name_of_the_file.jpg>
 ```    
 
-You can see that for most of the data in your directories the results are quite high - 90-99%.
+You can see that for most of the data in your directories the results are quite high - final test accuracy is somewhere near 90% (my results - 88.9% with removed neglyubka / 89.7% with new data).
 
 # The Harder They Fall
 
