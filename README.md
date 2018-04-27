@@ -13,7 +13,7 @@ First of all, you have to install a few things (considering you haven't done thi
 
 If you're done, head to https://www.kaggle.com and create an account. You'll use it quite frequently, trust me. After that, go to: https://www.kaggle.com/<your_name>/account and download the API Token. Then open the terminal and type:
 
-> git clone https://github.com/s4ilor/ml-patterns # Cloned repo from TFforPoets by Google. Smaller version including only the files we need.\
+`> git clone https://github.com/s4ilor/ml-patterns # Cloned repo from TFforPoets by Google. Smaller version including only the files we need.\
 > mv ~/Downloads/kaggle.json ~/.kaggle # Moving the json file into kaggle directory.\
 > chmod 600 ~/.kaggle/kaggle.json # Safety purposes.\
 > kaggle datasets download -d olgabelitskaya/traditional-decor-patterns # Downloading the dataset.\
@@ -36,7 +36,7 @@ mv 02_07*.jpg ~/ml-patterns/tf_files/photos/kaszubskie; \
 mv 03_05*.jpg ~/ml-patterns/tf_files/photos/iznik; \
 mv 04_06*.jpg ~/ml-patterns/tf_files/photos/neglyubka; # Moving all the files into proper categories.\
 > rm -rf ~/ml-patterns/tf_files/data # Deleting stuff we don't need anymore.\
-> cd ~/ml-patterns # Head to the main directory.
+> cd ~/ml-patterns # Head to the main directory.`
 
 # Everything is prepared - now it's time for TensorFlow to do the work
  
