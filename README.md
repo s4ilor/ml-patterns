@@ -74,7 +74,7 @@ Let me guess, it told you:
 "CRITICAL:tensorflow:Label neglyubka has no images in the category validation. [...] mod_index = index % len(category_list) ZeroDivisionError"
 ```
 
-Of course it doesn't work. Have you checked the data at all? TensorFlow is a bit fussy when it comes to the input, and in this particular situation we don't have enough pictures in "neglyubka" folder - only 12, when TF prefers to have 20/30 at least. Say, you're an alien and you've just come to the Earth. You see a dog and a cat for a first time. It's quite hard to distinguish them later after only one encounter. 
+Of course it doesn't work. Have you checked the data at all? TensorFlow is a bit fussy when it comes to the input, and in this particular situation we don't have enough pictures in "neglyubka" folder - only 12, when TF prefers to have 20/30 at least. Say, you're an alien and you've just come to the Earth. You see a dog and a cat for a first time. It's quite hard to distinguish them later after only one encounter. Each picture - each encounter. The more the better.
 
 # Two ways to go
 
