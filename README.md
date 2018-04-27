@@ -8,8 +8,8 @@ Everything works perfectly fine on Ubuntu 16.04.
 First of all, you have to install a few things (considering you haven't done this before):
 
 ```
-pip install tensorflow\
-pip install opencv-python\
+pip install tensorflow
+pip install opencv-python
 pip install kaggle
 ```
 
