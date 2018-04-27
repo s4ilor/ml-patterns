@@ -1,6 +1,7 @@
 # Hello there!
-It looks like you've found a quick tutorial (another one ;-)) for creating a simple image classifier using TensorFlow for Poets.
-Today we're going to test it on Slavic decoration patterns. All you have to do is: download the data, type a few lines of code in shell and run the program. Simple as that!
+This particular tutorial shows an example of how to use TensorFlow for Poets with Kaggle dataset.
+
+We're going to test it on Slavic decoration patterns. All you have to do is: download the data, type a few lines of code in shell and run the program. Simple as that!
 
 Everything works perfectly fine on Ubuntu 16.04.
 
