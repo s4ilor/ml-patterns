@@ -86,13 +86,13 @@ You can either tell that data to go "#$!@ yourself" or you can download some mor
 rm -rf ~/ml-patterns/tf_files/photos/neglyubka
 ```
 
-Voila! Run the code above and you'll see the magic. Oh, and if tensorboard has been previously working, just:
+Voila! Run the code above and you'll see the magic. Oh, and if tensorboard is troubling you, just:
 
 ```
 pkill -f "tensorboard"
 ```
 
-And run the code.
+And then run the code.
 
 # Adding more data
 
