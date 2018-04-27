@@ -1,5 +1,7 @@
 # Hello there!
 This particular tutorial shows an example of how to use TensorFlow for Poets with Kaggle dataset.
+Haven't seen the source yet? Go check it out!
+https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/
 
 We're going to test it on Slavic decoration patterns. All you have to do is: download the data, type a few lines of code in shell and run the program. Simple as that!
 
