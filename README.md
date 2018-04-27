@@ -95,7 +95,7 @@ And run the code.
 So you never give up. That's good... I guess. Anyway, download the NEW neglyubka folder from https://drive.google.com/open?id=1A4Tj9bydeWXHa3ygC3tPTYPXs7PIIyNA. There are more files inside which I've found on the internet and resized to 150x150px.
 
 ```
-rm -rf ~/ml-patterns/tf_files/photos/neglyubka # Delete the old stuff. It doesn't work anyway.
+rm -rf ~/ml-patterns/tf_files/photos/neglyubka
 tar xf ~/Downloads/neglyubka.tar.gz -C ~/ml-patterns/tf_files/photos
 ```
 
