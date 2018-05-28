@@ -1,5 +1,5 @@
 # Hello there!
-This particular tutorial shows an example of how to use TensorFlow for Poets with Kaggle dataset.
+This particular tutorial shows an example of how to use TensorFlow for Poets with Kaggle dataset, using only Linux shell. No need for coding (this time!).
 
 If you haven't seen the source yet - check it out! https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/ \
 Much love for Google!
